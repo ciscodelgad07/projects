@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="..\Projects\styling.css">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+        <title>Cryptocurrency Data</title>
+    </head>
+    <body>
+        <div class="entire-container">
+                <div class="chart-container">
+                    <canvas id="myChartGraph"></canvas>
+                </div>
+                <div class="space"></div>
+            <div id="ajaxField">
+                <div class="cryptoTable" id="monitoringCrypto">
+                    <h3>Monitoring Crypto</h3>
+                    <table id="cryptoData" class="insertData">
+                    </table>
+                    <p class="placeholder">Please click on retrieve data to populate information.</p>
+                    <div class="latestAjaxCall">
+                        <p id="timestamp">TIMESTAMP GOES HERE</p>
+                    </div>
+                </div>
+                <div class="space"></div>
+                <div class="cryptoTable" id="cryptoWallet">
+                    <h3>Crypto Wallet</h3>
+                    <table id="cryptoWalletData" class="insertData">
+                    </table>
+                    <p class="placeholder">Please click on retrieve data to populate information.</p>
+                    <div class="total">
+                        <p>Total Wallet Amount:</p>
+                        <p class="wallet-amount"></p>
+                    </div>
+                </div>
+            </div>
+            <button id="ajaxCallBtn" onclick='runAPI()'>Retrieve Data</button>
+        </div>
+        <p id="copyright">Created by Francisco Delgado</p>
+    <script src="..\Projects\jquery.js"></script>
+    <script src="..\Projects\function.js"></script>
+    </body>
+</html>
