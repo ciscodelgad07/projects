@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge"> <!-- FIX IE problems with Viewport and Gradients-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- MOBILE DEVICES-->
+        <meta http-equiv="Content-Type" content="text/html; CHARSET=utf-8">
+        <title>Login Screen</title>
+        <meta content="NOINDEX, NOFOLLOW" name="Robots">
+        <link href="..\css\loginPage.css" type="text/css" rel="stylesheet">
+        <script type="text/javascript" src="..\js\loginPage.js"></script>
+    </head>
+    <body style="font-size:100%">
+    <div class="page-contents"> 
+        <div class="container">
+            <form>
+                <div id="tblMain" cellpadding="0" cellspacing="0">
+                    <div class="image-header"><h2>LOGO</h2>
+                    </div>
+                    <div class="outer-form"> 
+                        <div class="form-container">
+                            <div class="outlooklogo-container">
+                                <img src="../images/outlook-icon.png">
+                            </div>
+                            <p id="ssomsg">Please enter your Login credentials</p>
+                            <div id="userid">
+                                <input class="txt" id="username" name="username" type="text" placeholder="Username">
+                            </div>
+                            <div id="passid">
+                                <input class="txt" id="password" type="password" name="password" placeholder="Password" autocomplete="off" required="" maxlength="128">
+                            </div>
+                            <div id="pascid" style="display:none;">
+                                <p id="passlabel"></p>
+                                <input class="txt" id="passphrase" type="password" name="passphrase" autocomplete="off" maxlength="64" placeholder="One-Time Passcode">
+                            </div>
+                            <div id="pinid" style="display:none;">
+                                <p id="pinlabel"></p>
+                                <input class="txt" id="pin" type="password" name="pin" autocomplete="off" maxlength="64" placeholder="Pin">
+                            </div>
+                            <div class="txtpad loginContainer">
+                                <input type="submit" id="loginBtn" value="Log On" name="submit"> 
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </form> 
+            <footer>© 2020 [Company Name]</footer> <!--NEW-->
+            <div class="disclaimer-container"> 
+                <div>
+                    <h3 class="disclaimer-title arrow-up" id="disclaimer" onclick="disclaimer()">Disclaimer</h3>
+                    <p class="warning-msg" id="warningMsg">This is only for demonstration purposes.</p>
+                    <p class="acknowledge" id="acknowledgeMsg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+ </html>

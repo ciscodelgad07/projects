@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-id-101 .content-grid {
+    max-width: 100% !important;
+}
+
+#pricing-table-container {
+    display: flex;
+}
+
+
+.pricing-spacing {
+    text-align: center;
+    flex: 1;
+    padding: 0px 20px;
+    border-radius: 6px;
+}
+
+.pricing-table {
+    padding: 0px 0px 20px 0px;
+    box-shadow: 0px 0px 3px 0px black;
+}
+
+.pricing-table:hover {
+    transition: 0.3s;
+    box-shadow: 0px 0px 7px 0px black;
+}
+
+.pricing-table h3 {
+    font-size: 26px;
+}
+
+.pricing-table h4 {
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    margin: 0 auto !important;
+    padding: 15px 0px;
+}
+
+.pricing-spacing > .pricing-table h3 {
+    padding: 10px 0px;
+    margin: 0 auto !important;
+}
+
+#pricing-table-container > div:nth-child(1) > div > h3 {
+    background-color: #2196f3;
+    color: white !important;
+}
+
+#pricing-table-container > div:nth-child(2) > div > h3 {
+    background-color: #FF9800;
+    color: white !important;
+}
+
+#pricing-table-container > div:nth-child(3) > div > h3 {
+    background-color: #673ab7;
+    color: white !important;
+}
+
+.flat-fee {
+    font-size: 36px !important;
+    font-weight: bold !important;
+    padding: 0px 0px 35px 0px;
+    margin: 0 auto !important;
+}
+
+.monthly-fee {
+    margin: 0 auto;
+    font-size: 24px !important;
+    font-weight: 400 !important;
+}
+
+.pricing-table a {
+    background-color: grey;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.pricing-table hr {
+    margin: 0 auto !important;
+}
+
+
+#pricing-table-container > div:nth-child(1) > div > div.inner-bottom-section > a { /* First Package a tag */
+    background-color: #2196f3 !important;
+}
+
+#pricing-table-container > div:nth-child(1) > div > div.inner-bottom-section > a:hover { /* First Package a tag hover selector */
+    background-color: #0f7ed6 !important;
+}
+
+#pricing-table-container > div:nth-child(2) > div > div.inner-bottom-section > a {
+    background-color: #ff9800 !important;
+}
+
+#pricing-table-container > div:nth-child(2) > div > div.inner-bottom-section > a:hover {
+    background-color: #e28700 !important;
+}
+
+#pricing-table-container > div:nth-child(3) > div > div.inner-bottom-section > a {
+    background-color: #673ab7 !important;
+}
+
+#pricing-table-container > div:nth-child(3) > div > div.inner-bottom-section > a:hover {
+    background-color: #50269a !important;
+}
+
+
+.pricing-table > .inner-bottom-section > a:hover {
+    transition: 0.3s;
+    background-color: #e63427;
+}
+
+.inner-top-section {
+    padding: 0px 0px 25px 0px;
+}
+
+.features {
+    text-align: left !important;
+    padding: 0px 20px !important;
+    line-height: 35px;
+    height: 360px !important;
+}
+
+#pricing-description {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+}
+
+.inner-bottom-section h4 {
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    margin: 0 auto;
+    padding: 10px 0px;
+    }
+
+
+@media only screen and (max-width: 800px) {
+    #pricing-table-container {
+        display: block !important;
+        margin: 0 auto;
+        padding: 0px !important;
+        text-align: center;
+    }
+
+    .pricing-spacing {
+        display: block;
+        padding: 20px 20px;
+    }
+
+
+    .pricing-table {
+        display: block !important;
+        margin: 0 auto;
+        padding: 0px 0px 20px 0px !important;
+    }
+
+    .pricing-table h3 {
+        font-size: 36px !important;
+    }
+
+    .features {
+        text-align:center !important;
+    }
+}

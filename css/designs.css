@@ -1,0 +1,140 @@
+body, p, button, a, h1, h2, h3, h4, h5, div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color:white;
+}
+
+h2 {
+    font-weight: normal;
+    background-color: rgb(255 255 255 / 95%);
+    margin: 0 auto;
+    padding: 70px;
+    transition: 0.3s ease;
+    font-size: 1.8em;
+    border-radius: 5px;
+}
+
+h2:hover {
+    opacity: 0;
+    margin: 0 auto;
+    padding: 100px;
+    color: white;
+    
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;  
+    text-transform: none;
+}
+
+body {
+    background-color: #673ab7;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 16px;  
+}
+
+.container {
+    margin:0 auto;
+    text-align: center;
+}
+
+.header {
+    font-size: 40px !important;
+}
+
+#designContents {
+    margin:0 auto;
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+}
+
+.menu-btn, .design-btn {
+    box-shadow: 0px 0px 3px 0px;
+    border-radius: 5px;
+    text-align: center;
+    display:inline-block;
+    background-color: rgb(255 255 255 / 46%);
+    transition: 0.3s ease;
+    text-transform: none;
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+}
+
+.menu-btn:hover, .design-btn:hover {
+    font-size: 15px !important;
+    box-shadow: 0px 0px 10px 0px;
+}
+
+.design-btn {
+    width: 400px;
+}
+
+.separator {
+    padding:30px;
+    display:inline-block;
+}
+
+#cmProject {
+    background-position: center;
+    background-image: url(../images/cmproject-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+#pricingTable {
+    background-position: center;
+    background-image: url(../images/pricingtable-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+#loginPage {
+    background-position: center;
+    background-image: url(../images/loginPage-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+
+@media only screen and (max-width: 885px) {
+    .separator{
+        display:block !important;
+        padding: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 1355px) {
+    .separator ~ .separator {
+        display:block !important;
+        padding: 20px !important;
+    }
+}
+
+.copyright {
+    position:absolute;
+    bottom:0;
+    text-align: center;
+    margin:0 auto;
+    width:100%;
+}
+
+#copyright  {
+    color:white;
+    padding:10px 0px 30px 0px;
+    margin:0 auto;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
