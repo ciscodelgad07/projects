@@ -1,5 +1,0 @@
-In case there's any issues with displaying the html page. Please make sure to extract the zip folder that was downloaded from Github in order to have it properly working.
-
-Thank you!!
-
-- By Francisco
