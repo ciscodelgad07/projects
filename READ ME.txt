@@ -1,0 +1,11 @@
+Due to cross origin request, you must run chrome unsecured in order to pull data from the api for the "Crypto Monitoring" page.
+
+Search and open "Run" on windows. 
+Copy and paste: "chrome.exe --user-data-dir="C:/Chrome dev session" --disable-web-security" Run.
+now you are able to see data populate for crypto monitoring page.
+
+In case there's any issues with displaying the html page. Please make sure to extract the zip folder that was downloaded from Github in order to have it properly working.
+
+Thank you!!
+
+- By Francisco
