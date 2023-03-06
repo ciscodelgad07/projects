@@ -2,7 +2,7 @@
 
 
 // You can obtain an api key at: https://p.nomics.com/pricing#
-var apiKEY = "fbfb758b764e434f28a2bde482ec5e5867e80266"; 
+var apiKEY = ""; 
 
 
 //Only use comma and the Crypto ID for an example: BTC,ETH,CRO
